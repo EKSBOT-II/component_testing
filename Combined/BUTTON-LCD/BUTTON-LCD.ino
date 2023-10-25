@@ -14,7 +14,7 @@ int selected = 1;
 /* SETUP */
 void setup()
 {
-    Serial.begin();
+    Serial.begin(115200);
     lcd.begin(16, 2);
 
     pinMode(PB, INPUT);
